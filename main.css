@@ -76,3 +76,112 @@ h3 {
     background: linear-gradient(0deg, royalblue 0%, skyblue 100%);
     margin: 20px auto 0 auto;
 }
+
+.navbar-nav a {
+    font-size: 17px;
+}
+
+#navi {
+    background-color: white;
+    border-color: #dddddd;
+    padding-right: 50px;
+    color: gray;
+}
+
+#navi a:hover {
+    background-color: darkgray;
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: whitesmoke url("gdynia.JPG");
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.7;
+}
+
+.hero-headline{
+    font-family: "Open Sans", sans-serif;
+    font-size: 3.5em;
+    margin-top: 2.5em;
+    margin-bottom: 0.4em;
+    text-align: right;
+}
+
+.hero-text{
+    font-family: "Open Sans", sans-serif;
+    font-size: 2em;
+    text-align: right;
+    padding-right: 165px;
+    margin-bottom: 36rem;
+}
+
+.hero-link{
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    font-size: 1.5em;
+}
+
+#hero  button {
+    padding: 0.1rem;
+}
+
+#hero button a:hover{
+    background-color: darkgray;
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+
+.button-o-mnie {
+    display: flex;
+    justify-content: center;
+}
+.button-o-mnie span {
+    margin: 2rem;
+}
+
+.column-foto {
+    background-size: cover;
+    opacity: 0.7;
+    background-position: center center;
+    padding: 12rem;
+}
+
+.column-about {
+    height: 100vh;
+    padding-top: 5rem;
+}
+
+.about-me-section-description {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #777;
+    font-style: italic;
+}
+
+.aboutme h2 , p {
+    color: #777;
+}
+
+.description-icons {
+    padding: 2rem 5rem 5rem 5rem;
+    text-align: justify;
+    color: royalblue;
+    font-size: 1.8rem;
+}
+
+.description-icons p {
+    font-size: 1.5rem;
+}
+
+.description-icons p:first-line {
+    font-style: italic;
+    font-size: 2rem;
+
+}
