@@ -21,6 +21,18 @@ h3 {
     color: #111;
 }
 
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: whitesmoke url("../img/wallpaperNEWer.jpg");
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.8;
+}
+
 .aboutme {
     background: #EDF5F5;
     padding: 40px 0 0 0;
