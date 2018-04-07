@@ -250,3 +250,14 @@ h3 {
     padding-top: 5rem;
 }
 
+/*portfolio*/
+
+
+.portfolio h2 {
+    color: #777;
+}
+
+.carousel {
+    width:80vw;
+    height: 80vw;
+}
