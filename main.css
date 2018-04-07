@@ -192,6 +192,7 @@ h3 {
     font-size: 2rem;
 }
 
+
 /*eperience */
 
 .column-experience {
@@ -271,5 +272,33 @@ h3 {
 
 .portfolio h2 {
     color:#777;
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
 }
+
+
+/*footer*/
+
+#footer {
+    background-color: #777;
+    height: 12rem;
+    color:whitesmoke;
+    padding-bottom: 3rem;
+}
+
+.footer a {
+    font-size: 4rem;
+    color:whitesmoke;
+}
+
+.footer a:hover {
+    font-size: 4rem;
+    color:royalblue;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
