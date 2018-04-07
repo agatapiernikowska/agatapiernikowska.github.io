@@ -253,11 +253,23 @@ h3 {
 /*portfolio*/
 
 
-.portfolio h2 {
-    color: #777;
-}
+
 
 .carousel {
-    width:80vw;
-    height: 80vw;
+    width:50%;
+    height: 50%;
+}
+
+#portfolio {
+       padding-bottom: 10rem;
+}
+
+.karuzela {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio h2 {
+    color:#777;
+    padding-bottom: 5rem;
 }
