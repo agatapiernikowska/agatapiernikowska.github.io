@@ -160,7 +160,7 @@ h3 {
 }
 
 .column-about {
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 5rem;
 }
 
@@ -196,13 +196,13 @@ h3 {
 /*eperience */
 
 .column-experience {
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 5rem;
     background-size: cover;
 }
 
 .column-education {
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 5rem;
     background-size: cover;
 }
