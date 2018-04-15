@@ -7,14 +7,12 @@ html {
 body {
     font-family: "Open Sans", sans-serif;
     margin: 0;
-    color: #666;
 }
 
 h2 {
     font-size: 32px;
     font-weight: 400;
     text-align: center;
-    color: #111;
     margin: 0;
 }
 
@@ -103,7 +101,8 @@ h3 {
     background: whitesmoke url("gdynia.JPG");
     background-size: cover;
     height: 100vh;
-    opacity: 0.7;
+    opacity: 0.8;
+    margin-bottom: 0;
 }
 
 .hero-headline{
@@ -114,12 +113,13 @@ h3 {
     text-align: right;
 }
 
+
 .hero-text{
     font-family: "Open Sans", sans-serif;
     font-size: 2em;
     text-align: right;
     padding-right: 165px;
-    margin-bottom: 36rem;
+    margin-bottom: 35rem;
 }
 
 .hero-link{
@@ -143,6 +143,7 @@ h3 {
 .button-o-mnie {
     display: flex;
     justify-content: center;
+    align-items: flex-end;
 }
 .button-o-mnie span {
     margin: 2rem;
@@ -301,4 +302,22 @@ h3 {
     align-items: flex-start;
 }
 
+@media (max-width: 996px) {
+    .hero-headline {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        font-size:30px;
+        color:white;
+    }
 
+    .hero-text {
+        margin: 0px;
+        padding: 0px;
+        font-size: 30px;
+    }
+    .button-o-mnie {
+        display: flex;
+        align-items: flex-end;
+    }
+}
