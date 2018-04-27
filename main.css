@@ -21,7 +21,6 @@ h3 {
     color: #111;
 }
 
-
 .hero {
     display: flex;
     flex-direction: column;
@@ -34,7 +33,7 @@ h3 {
 
 .aboutme {
     background: #EDF5F5;
-   }
+}
 
 .aboutme > .container {
     padding: 0 15px 40px 15px;
@@ -71,9 +70,7 @@ h3 {
     margin: 20px auto 0 auto;
 }
 
-
 /*nav*/
-
 
 .navbar-nav a {
     font-size: 17px;
@@ -86,11 +83,6 @@ h3 {
     margin-bottom: 0;
 }
 
-#navi a:hover {
-    background-color: darkgray;
-}
-
-
 /*hero*/
 
 .hero {
@@ -102,34 +94,31 @@ h3 {
     text-align: center;
 }
 
-.hero-headline{
+.hero-headline {
     font-family: "Open Sans", sans-serif;
     font-size: 3.5em;
     margin-top: 1.5em;
     margin-bottom: 0.4em;
     text-align: right;
     position: relative;
-    color:white;
+    color: white;
     font-weight: 600;
 }
 
 .hero-text {
     font-weight: normal;
-    color:white;
+    color: white;
     font-size: 1em;
 }
 
-
-.hero-link{
+.hero-link {
     text-decoration: none;
     font-family: "Open Sans", sans-serif;
-    color: black;
+    color: darkgray;
     font-size: 1.5em;
 }
 
-
 /*about me*/
-
 
 .column-foto {
     background-size: cover;
@@ -154,6 +143,7 @@ h3 {
 .aboutme h2 {
     color: #777;
 }
+
 .aboutme p {
     color: #777;
 }
@@ -174,7 +164,6 @@ h3 {
     font-size: 2rem;
 }
 
-
 /*eperience */
 
 .column-experience {
@@ -189,7 +178,6 @@ h3 {
     background-size: cover;
 }
 
-
 .experience-section-description {
     text-align: center;
     padding-top: 2rem;
@@ -198,11 +186,11 @@ h3 {
     font-style: italic;
 }
 
-.experience h2  {
+.experience h2 {
     color: #777;
 }
 
-.experience p  {
+.experience p {
     color: #777;
 }
 
@@ -243,16 +231,13 @@ h3 {
 
 /*portfolio*/
 
-
-
-
 .carousel {
-    width:50%;
+    width: 50%;
     height: 50%;
 }
 
 #portfolio {
-       padding-bottom: 10rem;
+    padding-bottom: 10rem;
 }
 
 .karuzela {
@@ -261,28 +246,27 @@ h3 {
 }
 
 .portfolio h2 {
-    color:#777;
+    color: #777;
     padding-bottom: 1rem;
 }
-
 
 /*footer*/
 
 #footer {
     background-color: #777;
     height: 12rem;
-    color:whitesmoke;
+    color: whitesmoke;
     padding-bottom: 3rem;
 }
 
 .footer a {
     font-size: 4rem;
-    color:whitesmoke;
+    color: whitesmoke;
 }
 
 .footer a:hover {
     font-size: 4rem;
-    color:royalblue;
+    color: royalblue;
 }
 
 .contact {
@@ -296,8 +280,8 @@ h3 {
         display: flex;
         justify-content: center;
         align-items: flex-end;
-        font-size:30px;
-        color:white;
+        font-size: 30px;
+        color: white;
     }
 
     .hero-text {
@@ -306,4 +290,8 @@ h3 {
         font-size: 0.7em;
     }
 
+}
+
+.active {
+    background-color: #EDF5F5;
 }

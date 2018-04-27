@@ -1,7 +1,7 @@
-$(document).ready(function() {
-  $('a[href^="#"]').on('click', function(event) {
+$(document).ready(function () {
+  $('a[href^="#"]').on('click', function (event) {
     var target = $($(this).attr('href'));
-    if( target.length ) {
+    if (target.length) {
       event.preventDefault();
       $('html, body').stop().animate({
         scrollTop: target.offset().top
