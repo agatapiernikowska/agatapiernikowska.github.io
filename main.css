@@ -82,7 +82,6 @@ h3 {
 #navi {
     background-color: white;
     border-color: #dddddd;
-    padding-right: 50px;
     color: gray;
     margin-bottom: 0;
 }
@@ -105,15 +104,19 @@ h3 {
 
 .hero-headline{
     font-family: "Open Sans", sans-serif;
-    font-size: 3.7em;
+    font-size: 3.5em;
     margin-top: 1.5em;
     margin-bottom: 0.4em;
     text-align: right;
     position: relative;
+    color:white;
+    font-weight: 600;
 }
 
 .hero-text {
-    font-size: 0.7em;
+    font-weight: normal;
+    color:white;
+    font-size: 1em;
 }
 
 
@@ -148,7 +151,10 @@ h3 {
     font-style: italic;
 }
 
-.aboutme h2 , p {
+.aboutme h2 {
+    color: #777;
+}
+.aboutme p {
     color: #777;
 }
 
@@ -192,11 +198,19 @@ h3 {
     font-style: italic;
 }
 
-.experience h2 , p {
+.experience h2  {
     color: #777;
 }
 
-.education h2 , p {
+.experience p  {
+    color: #777;
+}
+
+.education h2 {
+    color: #777;
+}
+
+.education p {
     color: #777;
 }
 
