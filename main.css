@@ -75,7 +75,6 @@ h3 {
 /*nav*/
 
 
-
 .navbar-nav a {
     font-size: 17px;
 }
@@ -85,6 +84,7 @@ h3 {
     border-color: #dddddd;
     padding-right: 50px;
     color: gray;
+    margin-bottom: 0;
 }
 
 #navi a:hover {
@@ -95,58 +95,33 @@ h3 {
 /*hero*/
 
 .hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: whitesmoke url("gdynia.JPG");
+    background: whitesmoke url("gdynia.JPG") no-repeat center;
     background-size: cover;
     height: 100vh;
+    width: 100%;
     opacity: 0.8;
-    margin-bottom: 0;
+    text-align: center;
 }
 
 .hero-headline{
     font-family: "Open Sans", sans-serif;
-    font-size: 3.5em;
-    margin-top: 2.5em;
+    font-size: 3.7em;
+    margin-top: 1.5em;
     margin-bottom: 0.4em;
     text-align: right;
+    position: relative;
 }
 
-
-.hero-text{
-    font-family: "Open Sans", sans-serif;
-    font-size: 2em;
-    text-align: right;
-    padding-right: 165px;
-    margin-bottom: 35rem;
+.hero-text {
+    font-size: 0.7em;
 }
+
 
 .hero-link{
     text-decoration: none;
     font-family: "Open Sans", sans-serif;
     color: black;
     font-size: 1.5em;
-}
-
-#hero  button {
-    padding: 0.1rem;
-}
-
-#hero button a:hover{
-    background-color: darkgray;
-    text-decoration: none;
-    color:whitesmoke;
-}
-
-
-.button-o-mnie {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-.button-o-mnie span {
-    margin: 2rem;
 }
 
 
@@ -316,8 +291,5 @@ h3 {
         padding: 0px;
         font-size: 30px;
     }
-    .button-o-mnie {
-        display: flex;
-        align-items: flex-end;
-    }
+
 }
