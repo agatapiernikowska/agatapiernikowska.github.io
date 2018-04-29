@@ -159,6 +159,7 @@ h3 {
 .omnie .description-icons {
     text-align: justify;
 }
+
 .omnie img {
     box-shadow: 0 0 20px #777;
 }
@@ -222,29 +223,28 @@ h3 {
 }
 
 .omnie .icon1 p:first-line {
-    font-size:2rem ;
+    font-size: 2rem;
 }
 
 .omnie .icon2 p:first-line {
-    font-size:2rem ;
+    font-size: 2rem;
 }
-
 
 .icon3 p {
     margin-bottom: 0;
 }
-.wyksztalcenie .description-icons{
+
+.wyksztalcenie .description-icons {
     background-image: url("politechnika(1).jpg");
     background-size: cover;
     height: 80%;
     position: center;
     opacity: 0.6;
 }
+
 .wyksztalcenie .description-icons p {
-    color:black;
+    color: black;
 }
-
-
 
 /*portfolio*/
 
