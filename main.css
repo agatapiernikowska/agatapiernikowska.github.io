@@ -124,7 +124,9 @@ h3 {
     background-size: cover;
     opacity: 0.8;
     background-position: center center;
-    padding: 12rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 10em;
 }
 
 .column-about {
@@ -150,12 +152,13 @@ h3 {
 
 .description-icons {
     padding: 2rem 5rem 5rem 5rem;
-    text-align: justify;
     color: royalblue;
     font-size: 1.8rem;
 }
 
-
+.omnie .description-icons {
+    text-align: justify;
+}
 .omnie img {
     box-shadow: 0 0 20px #777;
 }
@@ -199,8 +202,6 @@ h3 {
 }
 
 .description-icons {
-    padding: 2rem 5rem 5rem 5rem;
-    text-align: justify;
     color: royalblue;
     font-size: 1.8rem;
 }
@@ -212,7 +213,7 @@ h3 {
 .wyksztalcenie .description-icons {
     display: flex;
     flex-direction: column;
-    padding-left: 10rem;
+    padding-left: 5rem;
     padding-top: 5rem;
 }
 
@@ -227,25 +228,19 @@ h3 {
 .omnie .icon2 p:first-line {
     font-size:2rem ;
 }
-.icon1 .icon2 .icon3 .icon4{
-    line-height: 1.2em;
-}
+
 
 .icon3 p {
     margin-bottom: 0;
 }
-.experience {
-    display: flex;
-    justify-content: space-evenly;
+.wyksztalcenie .description-icons{
+    background-image: url("politechnika.jpg");
+    background-size: cover;
+    height: 80%;
+    position: center;
+
 }
 
-.wyksztalcenie {
-    margin-right: 10rem;
-}
-
-.doswiadczenie {
-    margin-left: 10rem;
-}
 
 
 /*portfolio*/
@@ -323,33 +318,5 @@ h3 {
     }
 }
 
-.container__func__box {
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    align-content: center;
-    background: #FFFFFF;
-    width: 48%;
-    height: 250px;
-    margin: 40px 0 0 0;
-    padding: 40px;
-    font-size: 15px;
-    line-height: 24px;
-    box-shadow: 0 0 30px rgba(73, 78, 92, 0.15);
-}
 
-.func-hide-box {
-    opacity: 0;
-    position: relative;
-    top: 80px;
-    transition: all .7s;
-}
-
-.func-show-box {
-    opacity: 1;
-    position: relative;
-    top: 0;
-    transition: all .7s;
-}
 
