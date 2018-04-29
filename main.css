@@ -234,11 +234,14 @@ h3 {
     margin-bottom: 0;
 }
 .wyksztalcenie .description-icons{
-    background-image: url("politechnika.jpg");
+    background-image: url("politechnika(1).jpg");
     background-size: cover;
     height: 80%;
     position: center;
-
+    opacity: 0.6;
+}
+.wyksztalcenie .description-icons p {
+    color:black;
 }
 
 
