@@ -209,8 +209,6 @@ h3 {
     font-size: 1.5rem;
 }
 
-
-
 .wyksztalcenie .description-icons {
     display: flex;
     flex-direction: column;
@@ -222,9 +220,33 @@ h3 {
     padding-top: 5rem;
 }
 
-.icon1 {
+.omnie .icon1 p:first-line {
+    font-size:2rem ;
+}
+
+.omnie .icon2 p:first-line {
+    font-size:2rem ;
+}
+.icon1 .icon2 .icon3 .icon4{
     line-height: 1.2em;
 }
+
+.icon3 p {
+    margin-bottom: 0;
+}
+.experience {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wyksztalcenie {
+    margin-right: 10rem;
+}
+
+.doswiadczenie {
+    margin-left: 10rem;
+}
+
 
 /*portfolio*/
 
