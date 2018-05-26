@@ -33,25 +33,20 @@ h3 {
 
 .aboutme {
     background: #EDF5F5;
+    height: 100vh;
 }
 
-.aboutme > .container {
-    padding: 0 15px 40px 15px;
-}
 
-.experience > .container {
-    background: #FFFFFF;
-    padding: 60px 15px;
+.experience {
+    height: 100vh;
 }
-
 .portfolio {
     background: #EDF5F5;
     padding: 40px 0 0 0;
+    height: 100vh;
 }
 
-.portfolio > .container {
-    padding: 0 15px 40px 15px;
-}
+
 
 .footer {
     padding: 40px 0 0 0;
