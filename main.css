@@ -1,7 +1,7 @@
 /*main*/
 
 html {
-    font-size: 16px;
+    font-size: 2.5rem;
 }
 
 body {
@@ -10,14 +10,14 @@ body {
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 6rem;
     font-weight: 400;
     text-align: center;
     margin: 0;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 3rem;
     color: #111;
 }
 
@@ -137,18 +137,24 @@ h3 {
     font-style: italic;
 }
 
+
 .aboutme h2 {
     color: #777;
 }
 
 .aboutme p {
     color: #777;
+    font-size: 1.8rem;
 }
 
 .description-icons {
     padding: 2rem 5rem 5rem 5rem;
     color: royalblue;
     font-size: 1.8rem;
+}
+
+.omnie{
+    padding-left: 7rem;
 }
 
 .omnie .description-icons {
@@ -159,6 +165,13 @@ h3 {
     box-shadow: 0 0 20px #777;
 }
 
+.omnie-description {
+    font-size: 1.4rem;
+}
+.aboutme-naglowek {
+    font-weight: bold;
+    font-size: 10rem;
+}
 /*eperience */
 
 .column-experience {
@@ -202,9 +215,9 @@ h3 {
     font-size: 1.8rem;
 }
 
-.description-icons p {
-    font-size: 1.5rem;
-}
+/*.description-icons p {*/
+    /*font-size: 1.5rem;*/
+/*}*/
 
 .wyksztalcenie .description-icons {
     display: flex;
@@ -217,13 +230,6 @@ h3 {
     padding-top: 5rem;
 }
 
-.omnie .icon1 p:first-line {
-    font-size: 2rem;
-}
-
-.omnie .icon2 p:first-line {
-    font-size: 2rem;
-}
 
 .icon3 p {
     margin-bottom: 0;
