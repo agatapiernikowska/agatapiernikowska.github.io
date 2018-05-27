@@ -125,6 +125,10 @@ h3 {
     font-style: italic;
 }
 
+.aboutme p {
+    font-size: 1.6rem;
+}
+
 .aboutme h2 {
     color: #777;
 }
@@ -135,7 +139,7 @@ h3 {
 
 .description-icons {
     padding: 2rem 5rem 5rem 5rem;
-    color: royalblue;
+    color: #777;
     font-size: 1.8rem;
 }
 
@@ -200,7 +204,7 @@ h3 {
 }
 
 .description-icons {
-    color: royalblue;
+    color: #777;
     font-size: 1.8rem;
 }
 
@@ -270,6 +274,9 @@ h3 {
     padding-bottom: 1rem;
 }
 
+.portfolio p {
+    font-size: 1.6rem;
+}
 /*footer*/
 
 #footer {
