@@ -38,6 +38,7 @@ h3 {
 .portfolio {
     background: #EDF5F5;
     padding: 40px 0 0 0;
+    margin-top: 8rem;
 }
 
 .footer {
@@ -143,7 +144,7 @@ h3 {
 }
 
 .omnie img {
-    box-shadow: 10px 5px 35px 25px #777;
+    box-shadow: 10px 5px 40px 20px #777;
 }
 
 .omnie-naglowek {
@@ -218,8 +219,21 @@ h3 {
     padding-top: 5rem;
 }
 
-.icon3 p {
+.doswiadczenie .icon1 p {
+    margin-right: 20rem;
+}
+
+.doswiadczenie .icon2 p {
+    margin-right: 20rem;
+}
+
+.doswiadczenie .icon3 p {
     margin-bottom: 0;
+    margin-right: 20rem;
+}
+
+.doswiadczenie .icon4 p {
+    margin-right: 20rem;
 }
 
 .wyksztalcenie .description-icons {
@@ -229,6 +243,7 @@ h3 {
     position: center;
     opacity: 0.6;
 }
+
 
 .wyksztalcenie .description-icons p {
     color: black;
