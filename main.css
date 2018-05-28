@@ -143,6 +143,9 @@ h3 {
     font-size: 1.8rem;
 }
 
+.omnie {
+    padding: 25px;
+}
 .omnie .description-icons {
     text-align: justify;
 }
@@ -203,6 +206,9 @@ h3 {
     color: #777;
 }
 
+.wyksztalcenie {
+    padding: 25px;
+}
 .description-icons {
     color: #777;
     font-size: 1.8rem;
