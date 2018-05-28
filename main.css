@@ -224,20 +224,20 @@ h3 {
 }
 
 .doswiadczenie .icon1 p {
-    margin-right: 20rem;
+    margin-right: 10rem;
 }
 
 .doswiadczenie .icon2 p {
-    margin-right: 20rem;
+    margin-right: 10rem;
 }
 
 .doswiadczenie .icon3 p {
     margin-bottom: 0;
-    margin-right: 20rem;
+    margin-right: 10rem;
 }
 
 .doswiadczenie .icon4 p {
-    margin-right: 20rem;
+    margin-right: 10rem;
 }
 
 .wyksztalcenie .description-icons {
@@ -348,6 +348,39 @@ h3 {
 
     .portfolio {
         height: 100vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .experience .description-icons {
+        padding: 10px;
+        margin-left: 35px;
+        display: flex;
+        flex-direction: column;
+     }
+    .experience .img-responsive{
+        visibility: hidden;
+    }
+
+    .experience .icon1 p {
+        margin: 0;
+        padding: 0;
+    }
+    .experience .icon2 p {
+        margin: 0;
+        padding: 0;
+    }
+    .experience .icon3 p {
+        margin: 0;
+        padding: 0;
+    }
+    .experience .icon4 p {
+        margin: 0;
+        padding: 0;
+    }
+    .aboutme .description-icons {
+        margin: 15px;
+        padding: 0;
     }
 }
 
